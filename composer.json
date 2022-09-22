@@ -1,0 +1,18 @@
+{
+    "name": "upanupstudios/zappyride-php-client",
+    "description": "ZappyRide API client for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Maranao",
+            "email": "marcom@upanup.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": { "Upanupstudios\\Zappyride\\Php\\Client\\": "src/" }
+    }
+}
